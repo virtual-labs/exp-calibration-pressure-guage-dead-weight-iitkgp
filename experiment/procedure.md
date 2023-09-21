@@ -1,4 +1,4 @@
-### Procedure
+## Procedure
 
 **Schematic of the Coupled-Tank Plant**
 <div align="center">

@@ -1,4 +1,4 @@
-# Theory
+## Theory
 
  Pressure gauges are standard devices for accurate and precise measurement of pressure. Pressure gauge calibration is important to ensure the accuracy of the measurement. A dead-weight tester is a device that balances fluid pressure with a known weight. Typically, it is used for static calibration of pressure gages. Gauge pressure is positive for pressures above atmospheric pressure and negative for pressures below it. All pressure gauges, of whatever type, need to be calibrated. As the calibration may change over time, the standard calibration procedure is to load the gauge with known weights using a dead-weight tester. The experiment, however, works satisfactorily with oil.
 
