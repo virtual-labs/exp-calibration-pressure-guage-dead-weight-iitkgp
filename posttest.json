@@ -1,0 +1,60 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "What is the role of the weights in the dead weight gauge calibrator?",
+      "answers": {
+        "a": "They determine the pressure range of the calibrator",
+        "b": "They stabilize the calibrator during the calibration process",
+        "c": "They apply a known pressure to the oil",
+        "d": "They measure the weight of the plunger"
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Which factor is not considered during the calibration process?",
+      "answers": {
+        "a": "Temperature variations",
+        "b": "Wear and tear of the pressure gauge",
+        "c": "Humidity level in the calibration environment",
+        "d": "Mechanical stress on the pressure gauge"
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Which data should be recorded during the calibration process?",
+      "answers": {
+        "a": "The weight of the plunger and the diameter of the stem",
+        "b": "The number of weights placed on the plunger",
+        "c": "The brand and model of the pressure gauge being calibrated",
+        "d": "The length of the connecting hoses used"
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "During calibration, the pressure gauge reading is 200 kilopascals. The actual pressure calculated using the known weights and the plunger's cross-sectional area is 205 kilopascals. What is the percentage error in the pressure gauge reading?",
+      "answers": {
+        "a": "2.44%",
+        "b": "2.93%",
+        "c": "3.17%",
+        "d": "4.88%"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "If a weight of 20 Newtons is placed on the platform and the cross-sectional area of the plunger is 0.03 m2, what is the pressure applied by the dead weight gauge calibrator?",
+      "answers": {
+        "a": "666.67 Pascal",
+        "b": "6666.67 Pascal",
+        "c": "66666.67 Pascal",
+        "d": "666666.67 Pascal"
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    }
+  ]
+}

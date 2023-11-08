@@ -1,0 +1,60 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "What is the purpose of calibrating a pressure gauge using a Dead Weight Gauge Calibrator?",
+      "answers": {
+        "a": "To measure the temperature of the fluid or gas",
+        "b": "To determine the size of the pressure gauge",
+        "c": "To ensure accurate measurements of pressure",
+        "d": "To calculate the viscosity of the fluid"
+      },
+      "correctAnswer": "c",
+      "difficulty": "Beginner"
+    },
+    {
+      "question": "What is a Dead Weight Gauge Calibrator?",
+      "answers": {
+        "a": "A device used to measure temperature",
+        "b": "A tool for measuring the weight of objects",
+        "c": "A primary standard device to generate known pressures",
+        "d": "A device used to calibrate flow meters"
+      },
+      "correctAnswer": "c",
+      "difficulty": "Beginner"
+    },
+    {
+      "question": "How does a Dead Weight Gauge Calibrator generate known pressures?",
+      "answers": {
+        "a": "By using a spring mechanism",
+        "b": "By applying weights to a piston in a fluid-filled cylinder",
+        "c": "By adjusting the size of the pressure chamber",
+        "d": "By measuring the electrical resistance of the fluid"
+      },
+      "correctAnswer": "b",
+      "difficulty": "Beginner"
+    },
+    {
+      "question": "What should be checked before performing the calibration?",
+      "answers": {
+        "a": "The color of the pressure gauge",
+        "b": "The weight of the Dead Weight Gauge Calibrator",
+        "c": "The calibration certificate of the Dead Weight Gauge Calibrator (if available)",
+        "d": "The length of the tubing used for connection"
+      },
+      "correctAnswer": "c",
+      "difficulty": "Beginner"
+    },
+    {
+      "question": "What is the purpose of plotting a calibration curve?",
+      "answers": {
+        "a": "To calculate the weight applied to the Dead Weight Gauge Calibrator",
+        "b": "To determine the temperature of the fluid or gas",
+        "c": "To assess the accuracy and linearity of the pressure gauge",
+        "d": "To measure the flow rate of the fluid or gas"
+      },
+      "correctAnswer": "c",
+      "difficulty": "Beginner"
+    }
+  ]
+}
