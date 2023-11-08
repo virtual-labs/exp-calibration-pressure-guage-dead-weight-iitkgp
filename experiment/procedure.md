@@ -1,6 +1,6 @@
 ## Procedure
 
-**Schematic of the Coupled-Tank Plant**
+**Schematic diagram**
 <div align="center">
 <img class="img-fluid"  src="./images/plant.png" alt=""><br>           
 </div>
