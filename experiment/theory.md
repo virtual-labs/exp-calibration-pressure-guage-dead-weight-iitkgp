@@ -16,11 +16,11 @@ where,
 
 <span style="font-family:'Calibri';font-style:italic">g</span> = Acceleration due to gravity in meter per second square (m/s<sup>2</sup>).
 
-Therefore, for each weight added, the pressure transmitted within the oil in the dead weight tester is calculated using the above formula, as the area of the piston in the tester is accurately known. Thus, by knowing <span style="font-family:'Bodoni MT';font-style:italic">M</span> and <span style="font-family:'Bodoni MT';font-style:italic">A</span>, the applied pressure can be precisely calculated. A typical dead-weight tester consists of an oil reservoir, a piston-cylinder assembly, a set of calibrated weights, a plunger, and a gauge connection port. The oil reservoir contains the working fluid, usually oil, which transmits pressure throughout the system. The piston-cylinder assembly converts the applied mass into fluid pressure, while the calibrated weights generate known forces when placed on the piston. The punger is used to fine-tune and stabilize the pressure within the system, ensuring precise calibration conditions. The gauge connection port provides an interface for attaching the pressure gauge that needs to be calibrated. The entire system is filled with clean oil, and the piston is carefully adjusted to float freely, minimizing friction and enhancing measurement accuracy. Figure 1 illustrates the schematic diagram of a dead weight tester used for calibrating a pressure gauge. Figure 2 shows the image of a real pressure gauge used for practical applications.
+Therefore, for each weight added, the pressure transmitted within the oil in the dead weight tester is calculated using the above formula, as the area of the piston in the tester is accurately known. Thus, by knowing <span style="font-family:'Bodoni MT';font-style:italic">M</span> and <span style="font-family:'Bodoni MT';font-style:italic">A</span>, the applied pressure can be precisely calculated. A typical dead-weight tester consists of an oil reservoir, a piston-cylinder assembly, a set of calibrated weights, a plunger, and a gauge connection port. The oil reservoir contains the working fluid, usually oil, which transmits pressure throughout the system. The piston-cylinder assembly converts the applied mass into fluid pressure, while the calibrated weights generate known forces when placed on the piston. The punger is used to fine-tune and stabilize the pressure within the system, ensuring precise calibration conditions. The gauge connection port provides an interface for attaching the pressure gauge that needs to be calibrated. The entire system is filled with clean oil, and the piston is carefully adjusted to float freely, minimizing friction and enhancing measurement accuracy. Fig. 1 illustrates the schematic diagram of a dead weight tester used for calibrating a pressure gauge. Fig. 2 shows the image of a real pressure gauge used for practical applications.
  
 
 <div align="center">				
-<img alt="" src="./images/plantscth.png" class="img-fluid">
+<img alt="" src="./images/plantscth.png" style="width:90%">
 
 <b>Fig.1. Schematic of Dead Weight Tester</b>
 </div>
@@ -33,16 +33,16 @@ Gravitational variation: The local acceleration due to gravity (<span style="fon
 $$e_{gravity} = - ( 2.637 \times 10^{-3} \ cos (2 \phi) + 2.9 \times 10^{-8} \ z + 5 \times 10^{-5} ) \tag{3}$$
 
 <div align="center">				
-<img alt="" src="./images/plantscth2.png" class="img-fluid">
+<img alt="" src="./images/plantscth2.png" style="width:90%">
 
 <b>Fig.2. Dead weight Tester (H6900, Nagman Instruments)</b>
 </div>
 
-Air buoyancy: The buoyant force of air slightly reduces the effective mass of the weights. The buoyancy correction is applied as:
+<b>Air buoyancy:</b> The buoyant force of air slightly reduces the effective mass of the weights. The buoyancy correction is applied as:
 
 $$e_{buoyancy} = - \frac{\rho_{air}}{\rho_{masses}} \tag{4}$$
 
-Piston friction: Friction between the piston and cylinder may prevent free movement, leading to measurement lag or hysteresis.
+<b>Piston friction:</b> Friction between the piston and cylinder may prevent free movement, leading to measurement lag or hysteresis.
 
 Uncertainty in piston area: Any dimensional inaccuracy directly affects the calculated pressure.
 
