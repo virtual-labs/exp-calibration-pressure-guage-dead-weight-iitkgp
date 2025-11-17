@@ -2,7 +2,7 @@
 
 **Steps to perform the simuation**
 
-This experiment consists of two main parts: Loading and Unloading. You will calibrate a pressure gauge using a dead weight tester filled with oil. The piston's weight and its cross-sectional area are fixed and known. The gauge can measure pressures from 0 to 1000 kPa. Fig. 1 illustrates the setup for pressure gauge calibration using a dead-weight tester simulation interface. 
+This experiment consists of two main parts: Loading and Unloading. You will calibrate a pressure gauge using a dead weight tester filled with oil. The piston's weight and its cross-sectional area are fixed and known. The gauge can measure pressures from 0 to 1000 kPa. Fig. 1 illustrates the setup for pressure gauge calibration using a dead-weight tester simulation interface. To follow the instructions on the simulation page, please click on the blue ‘Instructions’ tab.
 
 **Part 1: Loading**
 <ul>
