@@ -5,7 +5,7 @@
 This experiment consists of two main parts: Loading and Unloading. You will calibrate a pressure gauge using a dead weight tester filled with oil. The piston's weight and its cross-sectional area are fixed and known. The gauge can measure pressures from 0 to 1000 kPa. Fig. 1 illustrates the setup for pressure gauge calibration using a dead-weight tester simulation interface. To follow the instructions on the simulation page, please click on the blue ‘Instructions’ tab.
 
 **Part 1: Loading**
-<ul>
+<ol>
 
 <li> Begin by dragging a 0.5 kg mass from the set of Mass Blocks and placing it onto the blue box above the piston. The selected mass will appear in the “Mass (kg)” input field.</li>
 
@@ -23,16 +23,16 @@ This experiment consists of two main parts: Loading and Unloading. You will cali
 
 <li> Use the “Clear” button to erase your data and graph if you need to restart. You can also hide the table by clicking “Table” again.</li>
 
-</ul>
+</ol>
 
 <div align="center">
-<img class="img-fluid"  src="./images/plant.png" alt=""><br> 
+<img class="img-fluid"  src="./images/plant.png" style="width:90%"><br> 
 
 <b>Fig. 1. Setup for pressure gauge calibration using a dead weight tester simulation interface</b>
 </div>
 
 <b>Part 2: Unloading</b>
-<ul>
+<ol>
 <li> After completing the loading phase, start removing weights. Drag the topmost mass from the blue box on the piston back to the Mass Block. The updated mass will display in the “Mass (kg)” input field.</li>
 
 <li> As you remove each mass, the piston will rise due to the decreasing pressure.</li>
@@ -48,7 +48,7 @@ This experiment consists of two main parts: Loading and Unloading. You will cali
 <li> Use “Clear” to remove your unloading data and plot, and click "Table" to hide the table.</li>
 
 Follow these steps for both loading and unloading to fully calibrate your gauge and to gather a complete set of calibration data for analysis.
-</ul>
+</ol>
 
 
 <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
