@@ -257,7 +257,7 @@ document.getElementById('massvalue').value = math.add(mvaluehlf,mvalue1kg,mvalue
 	
 	 mp = 0.5;///Mass of piston acc. to the sample report in kg
 	 mpdia = 0.01767;///Diameter of piston acc. to the sample report
-	 mp_Area = math.divide(math.multiply(math.pi,math.pow(mpdia,2)),4);///Area of cross section of piston acc. to the sample report
+	 mp_Area = math.divide(math.multiply(math.pi,math.pow(mpdia,2)),4).toPrecision(3);///Area of cross section of piston acc. to the sample report
 	//console.log('pistonArea ='+ mp_Area);
 	
 	 totalMass = math.add(m,mp);///Mass of discs kept + Mass of piston
@@ -266,16 +266,16 @@ document.getElementById('massvalue').value = math.add(mvaluehlf,mvalue1kg,mvalue
 	 F = math.multiply(totalMass,9.81);///total force or weight applied in Newton (Kg-m/s^2),g = 9.81 m/s^2
 	//console.log('Force ='+ F);
 	
-	 ActPressure = math.divide(math.divide(F,mp_Area),1000);///Actual calculated pressure in KPa
+	 ActPressure = math.divide(math.divide(F,mp_Area),1000).toFixed(2);///Actual calculated pressure in KPa
 	//console.log('Actpressure ='+ ActPressure);
 	//var gaugeErr = math.random();
-	 IndicatedValue = math.add(math.round(ActPressure),math.random(0,3));///Pressure gauge indicated value 
+	 IndicatedValue = math.add(math.round(ActPressure),math.random(0,3)).toFixed(2);///Pressure gauge indicated value 
 	//console.log('Indicated pressure ='+ IndicatedValue);
 	
 	var gaugeErr = math.abs(math.subtract(IndicatedValue,ActPressure));///error between calculated and measured value of pressure
 	//console.log('Gauge Error ='+ gaugeErr);
 	
-	 prErr = math.multiply(math.divide(gaugeErr,ActPressure),100);///percentage error in pressure measurement
+	 prErr = math.multiply(math.divide(gaugeErr,ActPressure),100).toFixed(2);///percentage error in pressure measurement
 	//console.log('prcntg Err ='+ prErr);	 
 	 
 	 

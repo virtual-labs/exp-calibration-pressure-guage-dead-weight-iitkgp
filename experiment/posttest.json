@@ -13,14 +13,14 @@
       "difficulty": "beginner"
     },
     {
-      "question": "Which factor is not considered during the calibration process?",
+      "question": "Which factor is corrected during pressure gauge calibration to ensure accurate pressure measurement?",
       "answers": {
-        "a": "Temperature variations",
-        "b": "Wear and tear of the pressure gauge",
-        "c": "Humidity level in the calibration environment",
-        "d": "Mechanical stress on the pressure gauge"
+        "a": "Color of the pressure gauge",
+        "b": "Acceleration due to gravity and air buoyancy",
+        "c": "Type of oil used in the tester",
+        "d": "Material of the weight block"
       },
-      "correctAnswer": "c",
+      "correctAnswer": "b",
       "difficulty": "beginner"
     },
     {

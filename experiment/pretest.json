@@ -46,14 +46,14 @@
       "difficulty": "Beginner"
     },
     {
-      "question": "What is the purpose of plotting a calibration curve?",
+      "question": "What physical principle is used in a dead weight gauge calibrator to generate known pressures?",
       "answers": {
-        "a": "To calculate the weight applied to the Dead Weight Gauge Calibrator",
-        "b": "To determine the temperature of the fluid or gas",
-        "c": "To assess the accuracy and linearity of the pressure gauge",
-        "d": "To measure the flow rate of the fluid or gas"
+        "a": "Balancing a known weight against fluid pressure",
+        "b": "Measuring the voltage across a diaphragm",
+        "c": "Using spring deformation",
+        "d": "Measuring gas density"
       },
-      "correctAnswer": "c",
+      "correctAnswer": "a",
       "difficulty": "Beginner"
     }
   ]
