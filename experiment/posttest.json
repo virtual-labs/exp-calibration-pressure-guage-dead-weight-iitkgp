@@ -2,7 +2,7 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "What is the role of the weights in the dead weight gauge calibrator?",
+      "question": "1. What is the role of the weights in the dead weight gauge calibrator?",
       "answers": {
         "a": "They determine the pressure range of the calibrator",
         "b": "They stabilize the calibrator during the calibration process",
@@ -13,7 +13,7 @@
       "difficulty": "beginner"
     },
     {
-      "question": "Which factor is corrected during pressure gauge calibration to ensure accurate pressure measurement?",
+      "question": "2. Which factor is corrected during pressure gauge calibration to ensure accurate pressure measurement?",
       "answers": {
         "a": "Color of the pressure gauge",
         "b": "Acceleration due to gravity and air buoyancy",
@@ -24,7 +24,7 @@
       "difficulty": "beginner"
     },
     {
-      "question": "Which data should be recorded during the calibration process?",
+      "question": "3. Which data should be recorded during the calibration process?",
       "answers": {
         "a": "The weight of the plunger and the diameter of the stem",
         "b": "The number of weights placed on the plunger",
@@ -35,7 +35,7 @@
       "difficulty": "beginner"
     },
     {
-      "question": "During calibration, the pressure gauge reading is 200 kilopascals. The actual pressure calculated using the known weights and the plunger's cross-sectional area is 205 kilopascals. What is the percentage error in the pressure gauge reading?",
+      "question": "4. During calibration, the pressure gauge reading is 200 kilopascals. The actual pressure calculated using the known weights and the plunger's cross-sectional area is 205 kilopascals. What is the percentage error in the pressure gauge reading?",
       "answers": {
         "a": "2.44%",
         "b": "2.93%",
@@ -46,7 +46,7 @@
       "difficulty": "beginner"
     },
     {
-      "question": "If a weight of 20 Newtons is placed on the platform and the cross-sectional area of the plunger is 0.03 m2, what is the pressure applied by the dead weight gauge calibrator?",
+      "question": "5. If a weight of 20 Newtons is placed on the platform and the cross-sectional area of the plunger is 0.03 m2, what is the pressure applied by the dead weight gauge calibrator?",
       "answers": {
         "a": "666.67 Pascal",
         "b": "6666.67 Pascal",

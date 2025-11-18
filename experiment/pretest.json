@@ -2,7 +2,7 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "What is the purpose of calibrating a pressure gauge using a Dead Weight Gauge Calibrator?",
+      "question": "1. What is the purpose of calibrating a pressure gauge using a Dead Weight Gauge Calibrator?",
       "answers": {
         "a": "To measure the temperature of the fluid or gas",
         "b": "To determine the size of the pressure gauge",
@@ -13,7 +13,7 @@
       "difficulty": "Beginner"
     },
     {
-      "question": "What is a Dead Weight Gauge Calibrator?",
+      "question": "2. What is a Dead Weight Gauge Calibrator?",
       "answers": {
         "a": "A device used to measure temperature",
         "b": "A tool for measuring the weight of objects",
@@ -24,7 +24,7 @@
       "difficulty": "Beginner"
     },
     {
-      "question": "How does a Dead Weight Gauge Calibrator generate known pressures?",
+      "question": "3. How does a Dead Weight Gauge Calibrator generate known pressures?",
       "answers": {
         "a": "By using a spring mechanism",
         "b": "By applying weights to a piston in a fluid-filled cylinder",
@@ -35,7 +35,7 @@
       "difficulty": "Beginner"
     },
     {
-      "question": "What should be checked before performing the calibration?",
+      "question": "4. What should be checked before performing the calibration?",
       "answers": {
         "a": "The color of the pressure gauge",
         "b": "The weight of the Dead Weight Gauge Calibrator",
@@ -46,7 +46,7 @@
       "difficulty": "Beginner"
     },
     {
-      "question": "What physical principle is used in a dead weight gauge calibrator to generate known pressures?",
+      "question": "5. What physical principle is used in a dead weight gauge calibrator to generate known pressures?",
       "answers": {
         "a": "Balancing a known weight against fluid pressure",
         "b": "Measuring the voltage across a diaphragm",
