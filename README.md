@@ -6,7 +6,7 @@
 
 <b>Discipline | <b> Mechanical Engineering 
 :--|:--|
-<b> Lab | <b> ** Metrology and Measurement Lab**
+<b> Lab | <b> ** Metrology and Measurement Laboratory**
 <b> Experiment|     <b> **Calibration of Pressure Gauge using Dead Weight Gauge Calibrator and Experiment 1**
 
 
