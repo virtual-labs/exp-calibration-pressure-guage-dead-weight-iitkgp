@@ -20,7 +20,7 @@ Therefore, for each weight added, the pressure transmitted within the oil in the
  
 
 <div align="center">				
-<img alt="" src="./images/plantscth.png" style="width:90%">
+<img alt="" src="./images/plantscth.png" style="width:80%">
 
 <b>Fig.1. Schematic of Dead Weight Tester</b>
 </div>
@@ -38,7 +38,7 @@ A correction factor is required to account for differences between the local gra
 $$e_{gravity} = \frac{g_l}{g} \tag{4}$$
 
 <div align="center">				
-<img alt="" src="./images/plantscth2.png" style="width:90%">
+<img alt="" src="./images/plantscth2.png" style="width:70%">
 
 <b>Fig.2. Dead weight Tester (H6900, Nagman Instruments)</b>
 </div>
