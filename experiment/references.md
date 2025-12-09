@@ -5,6 +5,11 @@
 
 2. Venkateshan, S. P., Venkateshan, S. P., & Venkateshan. (2015). Mechanical measurements (pp. 103-182). Chichester: Wiley.
 
+3. Hinze, W. J., Von Frese, R., & Saad, A. H. (2013). Gravity and magnetic exploration: Principles, practices, and applications. Cambridge University Press.
+
+4. Chandler Engineering Company, Deadweight Testers and Gauges: Instruction Manual, Revision F, 2025.
+
+
 #### NPTEL Lecture and website
 
 1. NPTEL (e-learning courses from IITs and IISC)

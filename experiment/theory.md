@@ -28,9 +28,14 @@ Therefore, for each weight added, the pressure transmitted within the oil in the
 During calibration, the system is first primed with oil to remove any trapped air and ensure the fluid remains incompressible. Calibrated weights are then placed on the piston to generate known pressures within the system. The plunger is moved gradually until the piston reaches equilibrium neither rising nor falling indicating that the pressure applied by the weights is balanced by the fluid pressure. Once equilibrium is achieved, the corresponding pressure gauge reading is recorded. This process is repeated for a series of increasing and then decreasing loads to evaluate the gauge’s accuracy and to check for hysteresis effects. Throughout the procedure, the piston-weight assembly is allowed to rotate, which helps reduce viscous friction between the piston and the cylinder walls, thereby improving the precision and consistency of the calibration.
 
 Even in a precisely designed tester, small errors arise due to several factors:
-Gravitational variation: The local acceleration due to gravity (<span style="font-family:'Calibri';font-style:italic">g</span>) varies slightly with latitude (<span style="font-style:italic">&phi;</span>) and elevation (<span style="font-family:'Bodoni MT';font-style:italic">z</span>). A correction factor accounts for these differences:
 
-$$e_{gravity} = - ( 2.637 \times 10^{-3} \ cos (2 \phi) + 2.9 \times 10^{-8} \ z + 5 \times 10^{-5} ) \tag{3}$$
+Gravitational variation: In a dead-weight tester, the applied force used to generate pressure is defined as the product of the true mass and the local acceleration due to gravity. Since gravitational acceleration is not constant and can vary over the Earth’s surface, the gravity at the test location may differ from the gravity value used during the original calibration of the dead-weight tester. When such a difference exists, the pressure values stated in the calibration report must be corrected to obtain the actual pressure at the test site. The local acceleration due to gravity (<span style="font-family:'Calibri';font-style:italic">g<sub>l</sub></span>) varies with latitude(<span style="font-family:'Bodoni MT';font-style:italic">&phi;</span>) and elevation (<span style="font-family:'Bodoni MT';font-style:italic">z</span>). It can be calculated using the following equation [Ref. 3,4]:
+
+$$g_{l} = 9.780327 (1 + 0.0053024 sin^{2} (\phi) - 0.0000058 sin^{2} (2 \phi)) - 3.086 \times 10^{-6} \times z \tag{3}$$
+
+A correction factor is required to account for differences between the local gravity at the test site and the reference gravity (<span style="font-family:'Calibri';font-style:italic">g</span>) used during calibration. The gravity correction can be applied using:
+
+$$e_{gravity} = \frac{g_l}{g} \tag{4}$$
 
 <div align="center">				
 <img alt="" src="./images/plantscth2.png" style="width:90%">
@@ -40,7 +45,7 @@ $$e_{gravity} = - ( 2.637 \times 10^{-3} \ cos (2 \phi) + 2.9 \times 10^{-8} \ z
 
 <b>Air buoyancy:</b> The buoyant force of air slightly reduces the effective mass of the weights. The buoyancy correction is applied as:
 
-$$e_{buoyancy} = - \frac{\rho_{air}}{\rho_{masses}} \tag{4}$$
+$$e_{buoyancy} = - \frac{\rho_{air}}{\rho_{masses}} \tag{5}$$
 
 <b>Piston friction:</b> Friction between the piston and cylinder may prevent free movement, leading to measurement lag or hysteresis.
 
@@ -48,7 +53,7 @@ Uncertainty in piston area: Any dimensional inaccuracy directly affects the calc
 
 Then the indicated pressure of the gauge, <span style="font-family:'Bodoni MT';font-style:italic">&rho;<sub>i</sub></span> , can be corrected as:
 
-$$\rho = \rho_i (1 + e_{gravity} + e_{buoyancy}) \tag{5}$$
+$$\rho = \rho_i (1 + e_{gravity} + e_{buoyancy}) \tag{6}$$
 
 The least count of an instrument is the smallest value that it can measure accurately. It defines the resolution or precision of the measurement. For a pressure gauge, the least count corresponds to the minimum change in pressure that produces a noticeable change in the pointer reading. It depends on the scale range and the number of divisions on the dial. The accuracy of calibration is affected by the least count, since any pressure difference less this value cannot be reliably detected. Hence, while comparing the actual and indicated pressures, the least count should be considered to estimate the uncertainty and overall measurement accuracy.
 				
