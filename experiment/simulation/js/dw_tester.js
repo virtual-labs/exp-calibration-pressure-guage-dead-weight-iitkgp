@@ -263,7 +263,7 @@ document.getElementById('massvalue').value = math.add(mvaluehlf,mvalue1kg,mvalue
 	 totalMass = math.add(m,mp);///Mass of discs kept + Mass of piston
 	//console.log('Total Mass ='+ totalMass);
 	
-	 F = math.multiply(totalMass,9.81);///total force or weight applied in Newton (Kg-m/s^2),g = 9.81 m/s^2
+	 F = math.multiply(totalMass,9.81).toFixed(2);///total force or weight applied in Newton (Kg-m/s^2),g = 9.81 m/s^2
 	//console.log('Force ='+ F);
 	
 	 ActPressure = math.divide(math.divide(F,mp_Area),1000).toFixed(2);///Actual calculated pressure in KPa

@@ -37,8 +37,8 @@
     {
       "question": "4. During calibration, the pressure gauge reading is 200 kilopascals. The actual pressure calculated using the known weights and the plunger's cross-sectional area is 205 kilopascals. What is the percentage error in the pressure gauge reading?",
       "answers": {
-        "a": "2.44%",
-        "b": "2.93%",
+        "a": "2.93%",
+        "b": "2.44%",
         "c": "3.17%",
         "d": "4.88%"
       },
