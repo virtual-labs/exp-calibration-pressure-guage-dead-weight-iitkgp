@@ -1,24 +1,17 @@
 ## Introduction
 
+<div align="center">
+<img src="experiment/images/iitkgp.png" width="10%">
+</div>
 
-<b>Discipline | <b>Fill your discipline name here
+<b>Discipline | <b> Mechanical Engineering 
 :--|:--|
-<b> Lab | <b> Fill your lab name here
-<b> Experiment|     <b> Fill your experiment name and number here
+<b> Lab | <b> ** Metrology and Measurement Laboratory**
+<b> Experiment|     <b> **Calibration of Pressure Gauge using Dead Weight Gauge Calibrator and Experiment 1**
+
 
 ### About the Experiment 
+**System description**
 
-Fill a brief description of this experiment here
+Pressure gauge calibration is important to ensure the accuracy of the measurement. A dead-weight tester is a device that balances fluid pressure with a known weight. Typically, it is used for static calibration of pressure gauges.
 
-<b>Name of Developer | <b> Fill the name of experiment owner here 
-:--|:--|
-<b> Institute | <b>  
-<b> Email id|     <b>  
-<b> Department |  
-
-### Contributors List
-
-SrNo | Name | Faculty or Student | Department| Institute | Email id
-:--|:--|:--|:--|:--|:--|
-1 | . | . | . | . | .
-2 | . | . | . | . | .
